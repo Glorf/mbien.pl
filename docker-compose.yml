@@ -1,0 +1,22 @@
+version: '3'
+services:
+  jekyll:
+    image: bretfisher/jekyll-serve
+    restart: always
+    expose:
+      - "4000"
+    networks:
+      - default
+      - web
+    labels:
+      - "traefik.docker.network=web"
+      - "traefik.enable=true"
+      - "traefik.http.routers.mbien.rule=Host(`mbien.pl`)"
+      - "traefik.http.routers.mbien.entrypoints=websecure"
+      - "traefik.http.routers.mbien.tls.certresolver=le"
+      - "traefik.http.services.mbien.loadbalancer.server.port=4000"
+    volumes:
+      - .:/site
+networks:
+  web:
+    external: true
