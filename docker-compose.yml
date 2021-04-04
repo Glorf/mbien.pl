@@ -17,6 +17,8 @@ services:
       - "traefik.http.services.mbien.loadbalancer.server.port=4000"
     volumes:
       - .:/site
+    environment:
+      - "JEKYLL_ENV=production"
 networks:
   web:
     external: true
