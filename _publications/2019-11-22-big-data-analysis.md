@@ -7,16 +7,6 @@ using cloud resources.'
 date: 2019-11-22
 venue: 'CERN Openlab Zenodo'
 paperurl: 'https://zenodo.org/record/3550777'
-citation: '@misc{michal_bien_2019_3550777,
-  author       = {Michał Bień},
-  title        = {{Big Data Analysis and Machine Learning  at Scale 
-                   with Oracle Cloud Infrastructure}},
-  month        = nov,
-  year         = 2019,
-  publisher    = {Zenodo},
-  doi          = {10.5281/zenodo.3550777},
-  url          = {https://doi.org/10.5281/zenodo.3550777}
-}'
 ---
 This work has successfully deployed two different use cases of interest for High Energy Physics using cloud resources:
 
