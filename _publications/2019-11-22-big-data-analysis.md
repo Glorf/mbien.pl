@@ -26,7 +26,7 @@ Recommended citation:
 
 ```bibtex
 @misc{michal_bien_2019_3550777,
-  author       = {Michał Bień},
+  author       = {Bień, Michał and Castellotti, Riccardo and Canali, Luca},
 {% raw %}
   title        = {{Big Data Analysis and Machine Learning  at Scale 
                    with Oracle Cloud Infrastructure}},
