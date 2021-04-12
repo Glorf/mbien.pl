@@ -1,5 +1,5 @@
 ---
-title: "Paper Title Number 1"
+title: "Big Data Analysis and Machine Learning  at Scale with Oracle Cloud Infrastructure"
 collection: publications
 permalink: /publication/2019-11-22-big-data-analysis
 excerpt: 'This work has successfully deployed two different use cases of interest for High Energy Physics 
@@ -27,8 +27,10 @@ Recommended citation:
 ```bibtex
 @misc{michal_bien_2019_3550777,
   author       = {Michał Bień},
+{% raw %}
   title        = {{Big Data Analysis and Machine Learning  at Scale 
                    with Oracle Cloud Infrastructure}},
+{% endraw %}
   month        = nov,
   year         = 2019,
   publisher    = {Zenodo},
